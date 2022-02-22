@@ -1,7 +1,7 @@
 # Проект 0. Угадай число
 
 ### From the [SkillFactory Data Science course](https://lms.skillfactory.ru/courses/course-v1:SkillFactory+DST-3.0+28FEB2021/about)
-
+ Project [game_v3.py](https://github.com/EstErste/DS-Erste/blob/main/.vscode/project0/game_v3.py)
 
 ## Оглавление  
 [1. Описание проекта](.README.md#Описание-проекта)  
