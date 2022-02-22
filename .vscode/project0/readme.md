@@ -5,11 +5,17 @@
 
 
 ## Table of Contents  
+
 [1. Project Description](.README.md#Project_Description)
+
 [2. What case are we solving?](.README.md#What-case-solvable)  
+
 [3. Data Summary](.README.md#Summary-Of-Data)  
+
 [4. Stages of work on the project](.README.md#Stages-work-on-project)  
+
 [5. Result](.README.md#Result)    
+
 [6. Conclusions](.README.md#Conclusions) 
 
 
