@@ -11,26 +11,24 @@
 [5. Результат](.README.md#Результат)    
 [6. Выводы](.README.md#Выводы) 
 
-### Описание проекта    
-Угадать загаданное компьютером число за не более чем 20 попыток
 
-:arrow_up:[к оглавлению](_)
+### Description of the project 
+wright an algorithm tat randomli select te number randomli selected would be those computer in no mor tan 20 attampt ### What case do we solve? You need to write a program that guesses the number for no more than 20 attempts
 
+### What case are we solving?    
+You need to write a program that guesses the number for no more than 20 attempts
 
-### Какой кейс решаем?    
-Нужно написать программу, которая угадывает число за не более чем 20 попыток
+**Competition conditions:**  
+- A computer guesses an integer from 0 to 100, and then guesses it in no more than 20 attempts. 
+- The algorithm takes into account information about whether the random number is more or less than the one we need, and also uses binary search
 
-**Условия соревнования:**  
-- Компьютер загадывает целое число от 0 до 100 и сам же его отгадывает. алгоритм должен уложиться в 20 попыток
-- Алгоритм учитывает информацию о том, больше ли случайное число или меньше нужного нам, использует бинарный поиск
+**Quality Metric**     
+Results are evaluated by the average number of attempts at 1000 repetitions
 
-**Метрика качества**     
-Результаты оцениваются по среднему количеству попыток при 1000 повторений
-
-**Что практикуем**     
-Учимся писать хороший код на Python.
-Учимся работать с IDE.
-Учимся работать с GitHub.
+**What we practice**     
+Learning to write good code in Python.
+Learn how to work with the IDE.
+Learn how to work with GitHub.
 
 
 ### Краткая информация о данных
@@ -45,8 +43,9 @@
 :arrow_up:[к оглавлению](.README.md#Оглавление)
 
 
-### Результаты:  
-....
+### Results: 
+
+As a result of the algorithm, the computer guesses the number on average for 5 attempts
 
 :arrow_up:[к оглавлению](.README.md#Оглавление)
 
