@@ -48,14 +48,17 @@ Learn how to work with GitHub.
 
 
 
-### Краткая информация о данных
-....
+### Summary of data
+the computer must guess the randomly selected number in no more than 20 attempts.
+ the random number capabilities of the Numpy library were used to work with
   
 :arrow_up:[к оглавлению](.README.md#Оглавление)
 
 
 ### Этапы работы над проектом  
-....
+set min and max numbers, find their median.
+if the number is not equal to the one given, we reduce or increase it depending on whether it is more or less than necessary.
+the function takes a predetermined number and returns the number of attempts
 
 :arrow_up:[к оглавлению](.README.md#Оглавление)
 
@@ -67,8 +70,9 @@ As a result of the algorithm, the computer guesses the number on average for 5 a
 :arrow_up:[к оглавлению](.README.md#Оглавление)
 
 
-### Выводы:  
-....
+### Conclusions:  
+the project is a trial and necessary to get acquainted with the working tools of Git and VScode. 
+In the course of work, the necessary skills for further work and study were mastered. 
 
 :arrow_up:[к оглавлению](.README.md#Оглавление)
 
