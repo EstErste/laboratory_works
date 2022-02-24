@@ -1,26 +1,25 @@
-"""Игра угадай число
-Компьютер сам загадывает и сам угадывает число
-"""
+"""Game Guess the number.
+The computer itself guesses the number"""
 
 import numpy as np
 
 
 def random_predict(number: int = 1) -> int:
-    """Рандомно угадываем число
+    """Randomly guess the number
 
     Args:
-        number (int, optional): Загаданное число. Defaults to 1.
+        number (int, optional): The Riddled Number. Defaults to 1.
 
     Returns:
-        int: Число попыток
+        int: Number of attempts
     """
     low_numner = 1
     high_number = 100
-    # количество попыток
+    # Number of attempts
     count = 0
     
     while low_numner <= high_number:
-        # Бинарный поиск: Сравниваем среднее число от макс и мин. значения с угадываемым числом
+        # Binary search: Compare the average of max and min. values with the guessed number
         mid = int((low_numner + high_number)/2)
         count += 1
         if mid == number:
@@ -29,27 +28,27 @@ def random_predict(number: int = 1) -> int:
             high_number = mid - 1
         else: 
             low_numner = mid + 1
-    return None
+    
     
 
 def score_game(random_predict) -> int:
-    """За какое количство попыток в среднем за 1000 подходов угадывает наш алгоритм
+    """For what number of attempts on average for 1000 approaches our algorithm guesses
 
     Args:
-        random_predict ([type]): функция угадывания
+        random_predict ([type]): Guessing function
 
     Returns:
-        int: среднее количество попыток
+        int: average number of attempts
     """
     count_ls = []
-    #np.random.seed(1)  # фиксируем сид для воспроизводимости
-    random_array = np.random.randint(1, 101, size=(1000))  # загадали список чисел
+    #np.random.seed(1)  # Fix the seed for reproducibility
+    random_array = np.random.randint(1, 101, size=(1000))  # guessed a list of numbers
 
     for number in random_array:
         count_ls.append(random_predict(number))
 
     score = int(np.mean(count_ls))
-    print(f"Ваш алгоритм угадывает число в среднем за:{score} попыток")
+    print(f"Your algorithm guesses the number on average for:{score} attempts")
     return score
 
 
